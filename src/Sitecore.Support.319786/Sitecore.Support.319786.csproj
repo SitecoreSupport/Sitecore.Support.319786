@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="sitecore\shell\client\Applications\ECM\EmailCampaign.Client\Pages\Tabs\50-Delivery.js" />
     <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>

@@ -192,31 +192,19 @@
       switch (context.AbTest.AutomaticTimeMode)
       {
         case 1:
-          ref DateTime local1 = ref scheduledDate;
-          automaticTimeAmount = context.AbTest.AutomaticTimeAmount;
-          double num1 = (double)automaticTimeAmount.Value;
-          dateTime = local1.AddHours(num1);
+          dateTime = scheduledDate.AddHours((double)context.AbTest.AutomaticTimeAmount.Value);
           break;
         case 2:
-          ref DateTime local2 = ref scheduledDate;
-          automaticTimeAmount = context.AbTest.AutomaticTimeAmount;
-          double num2 = (double)automaticTimeAmount.Value;
-          dateTime = local2.AddDays(num2);
+          dateTime = scheduledDate.AddDays((double)context.AbTest.AutomaticTimeAmount.Value);
           break;
         case 3:
           dateTime = scheduledDate.AddDays((double)(7 * context.AbTest.AutomaticTimeAmount.Value));
           break;
         case 4:
-          ref DateTime local3 = ref scheduledDate;
-          automaticTimeAmount = context.AbTest.AutomaticTimeAmount;
-          int months = automaticTimeAmount.Value;
-          dateTime = local3.AddMonths(months);
+          dateTime = scheduledDate.AddMonths(context.AbTest.AutomaticTimeAmount.Value);
           break;
         default:
-          ref DateTime local4 = ref scheduledDate;
-          automaticTimeAmount = context.AbTest.AutomaticTimeAmount;
-          double num3 = (double)automaticTimeAmount.Value;
-          dateTime = local4.AddHours(num3);
+          dateTime = scheduledDate.AddHours((double)context.AbTest.AutomaticTimeAmount.Value);
           break;
       }
       AutomaticSelectWinnerOptions selectWinnerOptions1 = new AutomaticSelectWinnerOptions();

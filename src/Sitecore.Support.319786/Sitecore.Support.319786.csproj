@@ -114,16 +114,36 @@
     <Content Include="App_Config\Include\zzz\Sitecore.Support.319786.config" />
     <Content Include="Reference\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
     <Content Include="Reference\Microsoft.Extensions.DependencyInjection.dll" />
-    <Content Include="Reference\Sitecore.EmailCampaign.Application.dll" />
-    <Content Include="Reference\Sitecore.EmailCampaign.dll" />
-    <Content Include="Reference\Sitecore.EmailCampaign.Model.dll" />
-    <Content Include="Reference\Sitecore.EmailCampaign.Model.Web.dll" />
-    <Content Include="Reference\Sitecore.EmailCampaign.Server.dll" />
-    <Content Include="Reference\Sitecore.ExM.Framework.dll" />
-    <Content Include="Reference\Sitecore.Services.Core.dll" />
-    <Content Include="Reference\Sitecore.Services.Infrastructure.dll" />
-    <Content Include="Reference\Sitecore.Services.Infrastructure.Sitecore.dll" />
-    <Content Include="Reference\System.Web.Http.dll" />
+    <Content Include="Reference\Sitecore.EmailCampaign.Application.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.EmailCampaign.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.EmailCampaign.Model.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.EmailCampaign.Model.Web.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.EmailCampaign.Server.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.ExM.Framework.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.Services.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.Services.Infrastructure.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.Services.Infrastructure.Sitecore.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\System.Web.Http.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
